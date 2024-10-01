@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMEI Kft.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/648f19b549.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+  <div class="startpage">
+    <div class="topnav" id="myTopnav">
+        <div class="logo-lamei"></div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a class="menu" href="#menuitem1">TEVÉKENYSÉGEINK</a>
+        <a class="menu" href="#menuitem2">REFERENCIÁINK</a>
+        <a class="menu" href="#menuitem3">KAPCSOLAT</a>
+    </div>
+    <div class="trainimage"></div>
+  </div>
+
+  <div class="activities" id="menuitem1">
+    <p class="headline futurabold">TEVÉKENYSÉGEINK:</p>
+    <div class="wrap">
+      <div class="wrap">
+        <div class="card"><img src="images/lameiactivity1.svg" alt="local radio district" class="graphic"><p class="actdescription">Helyi rádiókörzet tervezés vasúti környezetben</p></div>
+        <div class="card"><img src="images/lameiactivity2.svg" alt="line radio system" class="graphic"><p class="actdescription">Vonali rádiórendszer tervezés vasúti környezetben</p></div>
+      </div>
+      <div class="wrap">
+        <div class="card"><img src="images/lameiactivity3.svg" alt="train radio" class="graphic"><p class="actdescription">Mozdonyrádió beépítés tervezés</p></div>
+        <div class="card"><img src="images/lameiactivity4.svg" alt="AIRCOM system" class="graphic"><p class="actdescription">AIRCOM rendszer tervezése</p></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="references wrapped" id="menuitem2">
+    <div class="headline futurabold">REFERENCIÁINK</div>
+    <ul style="list-style: none;">
+      <li><i class="fa-solid fa-circle-chevron-right"></i>Pusztaszabolcs vasútállomás helyi rádiókörzet tervezés</li>
+      <li><i class="fa-solid fa-circle-chevron-right"></i>Püspökladány - Biharkeresztes vonal vonali rádiórendazer tervezés</li>
+      <li><i class="fa-solid fa-circle-chevron-right"></i>Debreceni SITA AIRCOM rendszer tervezése</li>
+    </ul>
+  </div>
+  <div class="contact" id="menuitem3">
+    <div class="info">
+      <p>KAPCSOLAT:</p>
+      <li>Székhely: 1121 Budapest, Alkony út 26/A</li>
+      <li>E-mail: info@lamei.hu</li>
+      <li>Telefon: +36 70 244 7468</li>
+    </div>
+    <div class="info">
+      <p>LAMEI Kft.:</p>
+      <li>Cégjegyzékszám: 01 09 391491</li>
+      <li>Adószám: 27434095-2-43</li>
+      <li>Bankszámlaszám: 16200010-10116498 (MagNet Bank)</li>
+    </div>
+  </div>
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
